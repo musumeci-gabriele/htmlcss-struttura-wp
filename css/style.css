@@ -3,3 +3,38 @@
   margin: 0;
   padding: 0;
 }
+
+/* contenitore struttura */
+.container{
+  width: 80vw;
+  margin: auto;
+}
+/* //contenitore struttura */
+
+/* intestazione */
+header{
+  background-color: #FEFE3A;
+  text-align: center;
+  height: 200px;
+}
+/* //intestazione */
+
+/* menu sx */
+.menu-sx{
+  background-color: #CC87DA;
+  text-align: center;
+  vertical-align: middle;
+}
+.lista-sx{
+  list-style: none;
+}
+/* //menu sx */
+
+/* contenuto */
+/* //contenuto */
+
+/* menu dx */
+/* //menu dx */
+
+/* credits */
+/* //credits */
