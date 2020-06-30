@@ -6,7 +6,7 @@
 
 /* contenitore struttura */
 .container{
-  width: 80vw;
+  width: 100vw;
   margin: auto;
 }
 /* //contenitore struttura */
@@ -37,6 +37,7 @@ main::after{
   height: 100px;
   width: 24%;
   margin-right: 1%;
+  padding-top: 14px;
 }
 #lista-sx{
   list-style: none;
@@ -53,37 +54,34 @@ main::after{
   margin-right: 1%;
   padding: 10px;
 }
-
 #testo{
   text-align: center;
-  vertical-align: middle;
   color: white;
+  padding: 100px;
 }
 /* //contenuto */
 
-/* menu dx one*/
-.menu-dx-one{
+/* menu dx*/
+.menu-dx{
   background-color: #CC87DA;
-  text-align: center;
-  vertical-align: middle;
   float: left;
   height: 100px;
   width: 24%;
   margin-right: 1%;
 }
-/* //menu dx one*/
-
-/* menu dx two*/
+/* //menu dx*/
 .menu-dx-two{
-  background-color: #CC87DA;
-
+  margin-top: 400px;
 }
-/* //menu dx two*/
+
+
 
 /* credits */
-.footer{
+.credits{
   background-color: #A4D2E1;
+  height: 100px;
+  width: 100vw;
   text-align: center;
-  height: 200px;
+  padding-top: 40px;
 }
 /* //credits */
