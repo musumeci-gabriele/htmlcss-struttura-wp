@@ -6,7 +6,7 @@
 
 /* contenitore struttura */
 .container{
-  width: 100vw;
+  width: 1000px;
   margin: auto;
 }
 /* //contenitore struttura */
@@ -16,6 +16,7 @@ header{
   background-color: #FEFE3A;
   text-align: center;
   height: 100px;
+  width: 100%;
 }
 /* //intestazione */
 
@@ -34,10 +35,10 @@ main::after{
 .menu-sx{
   background-color: #CC87DA;
   float: left;
-  height: 100px;
+  height: 300px;
   width: 24%;
   margin-right: 1%;
-  padding-top: 14px;
+  padding-top: 130px;
 }
 #lista-sx{
   list-style: none;
@@ -52,35 +53,41 @@ main::after{
   height:600px;
   width: 49%;
   margin-right: 1%;
-  padding: 10px;
+  padding-top: 20px;
 }
 #testo{
   text-align: center;
   color: white;
-  padding: 100px;
 }
 /* //contenuto */
 
-/* menu dx*/
-.menu-dx{
-  background-color: #CC87DA;
+/* widget dx*/
+.widget{
   float: left;
-  height: 100px;
+  height: 600px;
   width: 24%;
   margin-right: 1%;
 }
-/* //menu dx*/
-.menu-dx-two{
-  margin-top: 400px;
+.widget-one{
+  background-color: #CC87DA;
+  height: 49%;
+  width: 100%;
+  margin-right: 1%;
 }
-
-
+.widget-two{
+  background-color: #CC87DA;
+  margin-top: 5%;
+  height: 49%;
+  width: 100%;
+  margin-right: 1%;
+}
+/* //widget dx*/
 
 /* credits */
 .credits{
   background-color: #A4D2E1;
   height: 100px;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   padding-top: 40px;
 }
